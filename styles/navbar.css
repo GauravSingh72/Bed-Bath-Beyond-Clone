@@ -1,0 +1,37 @@
+#redBar > p {
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  font-display: Arial Narrow;
+  padding: 6px;
+  margin: 0;
+}
+
+#blueBar {
+  background-color: #094576;
+  display: flex;
+}
+
+#left_blueBar {
+  padding: 0px;
+  margin-left: 40px;
+}
+
+#right_blueBar {
+  color: white;
+  margin-top: 10px;
+  margin-right: 40px;
+  margin-left: auto;
+  font-size: 16px;
+}
+
+#searchBar {
+  display: flex;
+  margin: 20px;
+  gap: 30px;
+}
+
+#right_searchBar {
+  margin-left: auto;
+}
