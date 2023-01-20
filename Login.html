@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./styles/Login.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div  style="margin-top: 2px; padding: 10px;">
+            <a style="text-decoration: none; color:black; font-size:20px" href="./index.html">&#60Back</a>
+        </div>
+       
+      <img
+        style="height: 200px; width: 100%; margin-top: 40px"
+        src="https://b3h2.scene7.com/is/image/BedBathandBeyond/WR_deskstop_22_07_2022?$content$&wid=1280"
+        alt=""
+      />
+
+      <div class="forms">
+        <div class="form login">
+          <span style="color: #094576" class="title">sign in or create</span>
+
+          <form action="#">
+            <div class="input-field">
+              <input
+                type="text"
+                class="mail"
+                placeholder="Enter your email"
+                required
+              />
+              <i class="uil uil-envelope icon"></i>
+            </div>
+            <div class="input-field">
+              <input
+                type="password"
+                class="pw"
+                placeholder="Enter your password"
+                required
+              />
+              <i class="uil uil-lock icon"></i>
+              <i class="uil uil-eye-slash showHidePw"></i>
+            </div>
+
+            <div class="checkbox-text">
+              <div class="checkbox-content">
+                <input type="checkbox" id="logCheck" />
+                <label for="logCheck" class="text">Remember me</label>
+              </div>
+
+              <a href="#" class="text">Forgot password?</a>
+            </div>
+
+            <div class="input-field button">
+              <input type="button" value="Login" onClick="checkData()" />
+            </div>
+          </form>
+
+          <div class="login-signup">
+            <span class="text"
+              >Not a member?
+              <a href="#" class="text signup-link">Signup Now</a>
+            </span>
+          </div>
+        </div>
+
+        <!-- Registration Form -->
+        <div class="form signup">
+          <span class="title">Registration</span>
+
+          <form action="#">
+            <div class="input-field">
+              <input
+                type="text"
+                id="username"
+                placeholder="Enter your name"
+                required
+              />
+              <i class="uil uil-user"></i>
+            </div>
+            <div class="input-field">
+              <input
+                type="text"
+                class="email"
+                placeholder="Enter your email"
+                required
+              />
+              <i class="uil uil-envelope icon"></i>
+            </div>
+            <div class="input-field">
+              <input
+                type="password"
+                class="password"
+                placeholder="Create a password"
+                required
+              />
+              <i class="uil uil-lock icon"></i>
+            </div>
+            <div class="input-field">
+              <input
+                type="password"
+                class="p"
+                placeholder="Confirm a password"
+                required
+              />
+              <i class="uil uil-lock icon"></i>
+              <i class="uil uil-eye-slash showHidePw"></i>
+            </div>
+
+            <div class="checkbox-text">
+              <div class="checkbox-content">
+                <input type="checkbox" id="termCon" />
+                <label for="termCon" id="lable"
+                  >I accepted all terms and conditions</label
+                >
+              </div>
+            </div>
+
+            <div class="input-field button">
+              <input
+                id="button"
+                type="button"
+                value="Signup"
+                onClick="addData()"
+              />
+            </div>
+          </form>
+
+          <div class="login-signup">
+            <span class="text"
+              >Already a member?
+              <a href="#" class="text login-link">Login Now</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script type="module" src="./scripts/Login.js"></script>
+<script src="./scripts/res.js"></script>
+<script>
+  function checkData() {
+    window.location.href = "index.html";
+  }
+</script>
+<script type="module" src="./script/Login.js"></script>
+<script src="./script/res.js"></script>
