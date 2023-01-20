@@ -1,6 +1,6 @@
-function navbar(){
-    let container = document.getElementById("navbar");
-    container.innerHTML = `
+function navbar() {
+  let container = document.getElementById("navbar");
+  container.innerHTML = `
     <div>
     <div id="redBar">
       <p>
@@ -10,17 +10,20 @@ function navbar(){
     </div>
     <div id="blueBar">
       <div id="left_blueBar">
-        <img style="height: 40px; width: 50px" src="Logo.jpeg" alt="mainLogo" />
-        <img
-          style="height: 40px; width: 50px"
-          src="BuyBuyBaby.jpeg"
-          alt="BuyBuyBabyLogo"
-        />
-        <img
-          style="height: 40px; width: 50px"
-          src="harmon.jpeg"
-          alt="harmonLogo"
-        />
+      <a href="./index.html"><img style="height: 40px; width: 50px" src="Logo.jpeg" alt="mainLogo" /></a>
+        
+        <a href="https://www.buybuybaby.com/"><img
+        style="height: 40px; width: 50px"
+        src="BuyBuyBaby.jpeg"
+        alt="BuyBuyBabyLogo"
+      /></a>
+        
+        <a href="https://www.harmonfacevalues.com/"><img
+        style="height: 40px; width: 50px"
+        src="harmon.jpeg"
+        alt="harmonLogo"
+      /></a>
+        
       </div>
 
       <div id="right_blueBar">
@@ -124,10 +127,12 @@ function navbar(){
           href="login.html"
           >sign in</a
         >
+        <a href="./cart.html">
         <i
           class="fa fa-shopping-cart"
           style="font-size: 25px; color: #094576"
-        ></i>
+        ></a>
+        </i>
       </div>
     </div>
 
@@ -158,4 +163,8 @@ function show() {
   } else {
     document.querySelector("ul").classList.add("shownav");
   }
+}
+
+function page(){
+  window.location.href="./bedding.html"
 }
