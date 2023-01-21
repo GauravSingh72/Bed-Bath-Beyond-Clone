@@ -74,7 +74,8 @@ function navbar() {
       </li>
     </div>
     <div class="menu">
-    <p onclick="page()">Bedding</p>
+    <a href="./bedding.html"><p onclick="page()">Bedding</p></a>
+    <a href="./smallAppliances.html"><P onclick="page()">Small Appliances</P></a>
     <p onclick="page()">Comfort Sets</p>
     <P onclick="page()">Bedding Bassics</P>
     <P onclick="page()">Sheets & Pillows</P>
@@ -83,7 +84,6 @@ function navbar() {
     <P onclick="page()">Shower</P>
     <P onclick="page()">Bathroom hardware</P>
     <P onclick="page()">Bathroom Accessories</P>
-    <P onclick="page()">Small Appliances</P>
     <P onclick="page()">Coffee & Tea</P>
     <P onclick="page()">Bathroom Ideas</P>
     <P onclick="page()">Wedding</P>
@@ -99,7 +99,10 @@ function navbar() {
     
     </div>
   </ul>
-      <img style="height: 60px; width: 100px: margin-top:0px" src="Logo3.jpeg" alt="" />
+<a href="./index.html">
+<img style="height: 60px; width: 100px: margin-top:0px" src="Logo3.jpeg" alt="" />
+
+</a>
 
       <div id="search">
         <input
@@ -136,24 +139,353 @@ function navbar() {
       </div>
     </div>
 
-    <div id="dropedownMenu">
-      <a href="">bedding</a>
-      <a href="">bath</a>
-      <a href="">kitchen</a>
-      <a href="">dinding</a>
-      <a href="">storage & cleaning</a>
-      <a href="">home decor</a>
-      <a href="">curtains & window</a>
-      <a href="">furniture</a>
-      <a href="">health & beauty</a>
-      <a href="">outdoor</a>
-      <a href="">luggage pet & more</a>
-      <a href="">gifts</a>
-      <a href="">baby & kids</a>
-      <a href="">shop by brand</a>
-      <a href="">college</a>
+    <div class="dropdown">
+    <a class="dropbtn">bedding</a>
+    <div class="dropdown-content">
+      <div class="header">
+      </div>   
+      <div class="row">
+        <div class="column">
+          <a href="./bedding.html">bedding</a>
+          <a href="#">comfortable sets</a>
+          <a href="#">bedding basics</a>
+        </div>
+        <div class="column">
+          <a href="#">sale</a>
+          <a href="#">mattress pads</a>
+          <a href="#">shams</a>
+        </div>
+        <div class="column">
+          <a href="#">bed in a bef</a>
+          <a href="#">quilts</a>
+          <a href="#">bed skirts</a>
+        </div>
+        </div>
     </div>
+
+    <a class="dropbtn">bath</a>
+    <div class="dropdown-content">
+      <div class="header">
+      </div>   
+      <div class="row">
+        <div class="column">
+          <a href="#">bath linen</a>
+          <a href="#">shower</a>
+          <a href="#">bath accessries</a>
+        </div>
+        <div class="column">
+          <a href="#">bathroom storage</a>
+          <a href="#">bath towels</a>
+          <a href="#">wastebaskets</a>
+        </div>
+        <div class="column">
+          <a href="#">towel bars</a>
+          <a href="#">wall cabinets</a>
+          <a href="#">towel warmers</a>
+        </div>
+        </div>
     </div>
+    
+    <a class="dropbtn">kitchen</a>
+    <div class="dropdown-content">
+      <div class="header">
+      </div>   
+      <div class="row">
+        <div class="column">
+          <a href="./smallAppliances.html">small appliances</a>
+          <a href="#">cookware</a>
+          <a href="#">air fryers</a>
+        </div>
+        <div class="column">
+          <a href="#">blenders</a>
+          <a href="#">juicers</a>
+          <a href="#">roasters</a>
+        </div>
+        <div class="column">
+          <a href="#">mising bowels</a>
+          <a href="#">coffee makers</a>
+          <a href="#">knife sets</a>
+        </div>
+        </div>
+    </div>
+    
+    <a class="dropbtn">dinning</a>
+    <div class="dropdown-content">
+      <div class="header">
+      </div>   
+      <div class="row">
+        <div class="column">
+          <a href="#">dinnerware sets</a>
+          <a href="#">bowls</a>
+          <a href="#">glasses</a>
+        </div>
+        <div class="column">
+          <a href="#">pitchers</a>
+          <a href="#">mattress pads</a>
+          <a href="#">wine glasses</a>
+        </div>
+        <div class="column">
+          <a href="#">serving sets</a>
+          <a href="#">cocktail glasses</a>
+          <a href="#">place settings</a>
+        </div>
+        </div>
+    </div>    
+
+    <a class="dropbtn">storage & cleaning</a>
+    <div class="dropdown-content">
+      <div class="header">
+      </div>   
+      <div class="row">
+        <div class="column">
+          <a href="#">storage bins & baskets</a>
+          <a href="#">hangers</a>
+          <a href="#">hooks</a>
+        </div>
+        <div class="column">
+          <a href="#">underbed storage</a>
+          <a href="#">storage bags</a>
+          <a href="#">shoe racks & storage</a>
+        </div>
+        <div class="column">
+          <a href="#">trash bags & liners</a>
+          <a href="#">recycling</a>
+          <a href="#">dish & hand soap</a>
+        </div>
+        </div>
+    </div>
+
+    <a class="dropbtn">home decor</a>
+    <div class="dropdown-content">
+      <div class="header">
+      </div>   
+      <div class="row">
+        <div class="column">
+          <a href="#">area rugs</a>
+          <a href="#">throwrugs</a>
+          <a href="#">outdoor rugs</a>
+        </div>
+        <div class="column">
+          <a href="#">throw pillows</a>
+          <a href="#">throw blankets</a>
+          <a href="#">pillow covers & inserts</a>
+        </div>
+        <div class="column">
+          <a href="#">table lamps</a>
+          <a href="#">floor lamps</a>
+          <a href="#">ceiling fans</a>
+        </div>
+        </div>
+    </div>
+
+    <a class="dropbtn">curtains & window</a>
+    <div class="dropdown-content">
+      <div class="header">
+      </div>   
+      <div class="row">
+        <div class="column">
+          <a href="#">blackout curtains</a>
+          <a href="#">blackout shades</a>
+          <a href="#">simply essential</a>
+        </div>
+        <div class="column">
+          <a href="#">room darkening curtains</a>
+          <a href="#">light filtering shades</a>
+          <a href="#">bee & willow home</a>
+        </div>
+        <div class="column">
+          <a href="#">light filtering curtains</a>
+          <a href="#">cellular shades</a>
+          <a href="#">sun zero</a>
+        </div>
+        </div>
+    </div>
+
+    <a class="dropbtn">furniture</a>
+    <div class="dropdown-content">
+      <div class="header">
+      </div>   
+      <div class="row">
+        <div class="column">
+          <a href="#">sofas & loveseats</a>
+          <a href="#">chairs & recliners</a>
+          <a href="#">ottomans & benches</a>
+        </div>
+        <div class="column">
+          <a href="#">bar stools & counter stools</a>
+          <a href="#">dining chairs & benchess</a>
+          <a href="#">folding tables & chairs</a>
+        </div>
+        <div class="column">
+          <a href="#">beds</a>
+          <a href="#">headboards</a>
+          <a href="#">dressers & chests</a>
+        </div>
+        </div>
+    </div>    
+
+    <a class="dropbtn">health & beauty</a>
+    <div class="dropdown-content">
+      <div class="header">
+      </div>   
+      <div class="row">
+        <div class="column">
+          <a href="#">hair dryers</a>
+          <a href="#">hair styling tools</a>
+          <a href="#">shampoo & conditioner</a>
+        </div>
+        <div class="column">
+          <a href="#">water flossers & floss</a>
+          <a href="#">electric toothbrushes</a>
+          <a href="#">teeth whitening</a>
+        </div>
+        <div class="column">
+          <a href="#">men's shaving</a>
+          <a href="#">electric groomers & shavers</a>
+          <a href="#">trimmers & clippers</a>
+        </div>
+        </div>
+    </div>
+
+    <a class="dropbtn">outdoor</a>
+    <div class="dropdown-content">
+      <div class="header">
+      </div>   
+      <div class="row">
+        <div class="column">
+          <a href="#">patio chairs & benches</a>
+          <a href="#">chaise lounges</a>
+          <a href="#">outdoor sofas and loveseats</a>
+        </div>
+        <div class="column">
+          <a href="#">patio umbrellas</a>
+          <a href="#">gazebos & canopies</a>
+          <a href="#">patio umbrella bases</a>
+        </div>
+        <div class="column">
+          <a href="#">outdoor grills & smokers</a>
+          <a href="#">grill tools & accessories</a>
+          <a href="#">outdoor cookware</a>
+        </div>
+        </div>
+    </div>    
+
+    <a class="dropbtn">luggage pet & more</a>
+    <div class="dropdown-content">
+      <div class="header">
+      </div>   
+      <div class="row">
+        <div class="column">
+          <a href="#">luggage sets</a>
+          <a href="#">checked luggage</a>
+          <a href="#">luggage carry ons</a>
+        </div>
+        <div class="column">
+          <a href="#">smart security & safety</a>
+          <a href="#">smart doorbells</a>
+          <a href="#">voice assistants</a>
+        </div>
+        <div class="column">
+          <a href="#">entertainment</a>
+          <a href="#">smart thermostats</a>
+          <a href="#">electric heaters</a>
+        </div>
+        </div>
+    </div> 
+    
+    <a class="dropbtn">gifts</a>
+    <div class="dropdown-content">
+      <div class="header">
+      </div>   
+      <div class="row">
+        <div class="column">
+          <a href="#">gifts by recipient</a>
+          <a href="#">top gifts</a>
+          <a href="#">gifts for her</a>
+        </div>
+        <div class="column">
+          <a href="#">cooking & baking gifts</a>
+          <a href="#">coffee gifts</a>
+          <a href="#">beauty & style qifts</a>
+        </div>
+        <div class="column">
+          <a href="#">personalized bedding</a>
+          <a href="#">personalized bath</a>
+          <a href="#">personalized wall art</a>
+        </div>
+        </div>
+    </div>    
+
+    <a class="dropbtn">baby & kids</a>
+    <div class="dropdown-content">
+      <div class="header">
+      </div>   
+      <div class="row">
+        <div class="column">
+          <a href="#">infant car seats</a>
+          <a href="#">convertible car seats</a>
+          <a href="#">booster car seats</a>
+        </div>
+        <div class="column">
+          <a href="#">diaper bags</a>
+          <a href="#">baby camers</a>
+          <a href="#">activity</a>
+        </div>
+        <div class="column">
+          <a href="#">health & wellness</a>
+          <a href="#">baby gates</a>
+          <a href="#">monitors</a>
+        </div>
+        </div>
+    </div>
+    
+    <a class="dropbtn">shop by brand</a>
+    <div class="dropdown-content">
+      <div class="header">
+      </div>   
+      <div class="row">
+        <div class="column">
+          <a href="#">Dyson</a>
+          <a href="#">UGG</a>
+          <a href="#">lodge</a>
+        </div>
+        <div class="column">
+          <a href="#">Caraway</a>
+          <a href="#">Cirkul</a>
+          <a href="#">everhome</a>
+        </div>
+        <div class="column">
+          <a href="#">Smeg</a>
+          <a href="#">homesick</a>
+          <a href="#">Tuppenware</a>
+        </div>
+        </div>
+    </div> 
+    
+    <a class="dropbtn">college</a>
+    <div class="dropdown-content">
+      <div class="header">
+      </div>   
+      <div class="row">
+        <div class="column">
+          <a href="#">twin xl bedding</a>
+          <a href="#">comforters & duvet covers</a>
+          <a href="#">mattress pads & toppers</a>
+        </div>
+        <div class="column">
+          <a href="#">mattress & pillow protectors</a>
+          <a href="#">bath towels & rugs</a>
+          <a href="#">shower totes & bath storage</a>
+        </div>
+        <div class="column">
+          <a href="#">carts & shelving</a>
+          <a href="#">underbed storage & caddies</a>
+          <a href="#">clothing storage</a>
+        </div>
+        </div>
+    </div>    
+
+</div>
     `;
 }
 navbar();

@@ -1,16 +1,16 @@
-var Bedcontainer = document.getElementById("Beddingcontainer");
+var Appliancecontainer = document.getElementById("Applicanescontainer");
 
-async function renderBed() {
-  let result = await fetch(`http://localhost:3000/bedding`);
+async function renderAppliance() {
+  let result = await fetch(`http://localhost:3000/smallAppliances`);
   var data = await result.json();
   console.log(data);
   data.forEach((el) => {
     let div = document.createElement("div");
-    div.setAttribute("id","bedding")
+    div.setAttribute("id","appliances")
 
     let img = document.createElement("img");
     img.src = el.item[0].img1;
-    img.style = "width:400px;"
+    img.style = "width:150px;"
 
     let p = document.createElement("p");
     p.innerText = el.name;
@@ -23,8 +23,8 @@ async function renderBed() {
     btn.innerText = "Add to Cart";
 
     div.append(img, p, price, btn);
-    Bedcontainer.append(div);
+    Appliancecontainer.append(div);
   });
 }
 
-renderBed();
+renderAppliance();
