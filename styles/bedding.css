@@ -1,0 +1,39 @@
+#Beddingcontainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 200px;
+  /* margin-left: 100px ; */
+}
+
+#Beddingcontainer > div {
+  padding: 50px;
+  /* border: 1px solid rgb(159, 158, 158); */
+}
+
+#Beddingcontainer > div > img {
+  padding: 20px;
+  margin-left: 200px;
+  border: 5px solid #accbe4;
+}
+
+#Beddingcontainer > div > button {
+  background-color: #4ba2e9;
+  border: 0px;
+  border-radius: 15px;
+  padding: 10px;
+  color: white;
+  margin: 10px 300px;
+}
+
+#Beddingcontainer > div > p {
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+#Beddingcontainer > div > h3 {
+  margin-top: 10px;
+  color: rgb(38, 38, 155);
+  text-align: center;
+}
