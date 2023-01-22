@@ -132,10 +132,10 @@ function navbar() {
         >
         <a href="./cart.html">
         <i
-          class="fa fa-shopping-cart"
+        class="fa fa-shopping-cart"
           style="font-size: 25px; color: #094576"
-        ></a>
-        </i>
+        >
+        </i></a>
       </div>
     </div>
 
@@ -147,18 +147,18 @@ function navbar() {
       <div class="row">
         <div class="column">
           <a href="./bedding.html">bedding</a>
-          <a href="#">comfortable sets</a>
-          <a href="#">bedding basics</a>
+          <a href="">comfortable sets</a>
+          <a href="">bedding basics</a>
         </div>
         <div class="column">
-          <a href="#">sale</a>
-          <a href="#">mattress pads</a>
-          <a href="#">shams</a>
+          <a href="">sale</a>
+          <a href="">mattress pads</a>
+          <a href="">shams</a>
         </div>
         <div class="column">
-          <a href="#">bed in a bef</a>
-          <a href="#">quilts</a>
-          <a href="#">bed skirts</a>
+          <a href="">bed in a bef</a>
+          <a href="">quilts</a>
+          <a href="">bed skirts</a>
         </div>
         </div>
     </div>
@@ -169,19 +169,19 @@ function navbar() {
       </div>   
       <div class="row">
         <div class="column">
-          <a href="#">bath linen</a>
-          <a href="#">shower</a>
-          <a href="#">bath accessries</a>
+          <a href="">bath linen</a>
+          <a href="">shower</a>
+          <a href="">bath accessries</a>
         </div>
         <div class="column">
-          <a href="#">bathroom storage</a>
-          <a href="#">bath towels</a>
-          <a href="#">wastebaskets</a>
+          <a href="">bathroom storage</a>
+          <a href="">bath towels</a>
+          <a href="">wastebaskets</a>
         </div>
         <div class="column">
-          <a href="#">towel bars</a>
-          <a href="#">wall cabinets</a>
-          <a href="#">towel warmers</a>
+          <a href="">towel bars</a>
+          <a href="">wall cabinets</a>
+          <a href="">towel warmers</a>
         </div>
         </div>
     </div>
@@ -189,7 +189,7 @@ function navbar() {
     <a class="dropbtn">kitchen</a>
     <div class="dropdown-content">
       <div class="header">
-      </div>   
+      </div>  
       <div class="row">
         <div class="column">
           <a href="./smallAppliances.html">small appliances</a>
@@ -467,21 +467,21 @@ function navbar() {
       <div class="header">
       </div>   
       <div class="row">
-        <div class="column">
-          <a href="#">twin xl bedding</a>
-          <a href="#">comforters & duvet covers</a>
-          <a href="#">mattress pads & toppers</a>
-        </div>
-        <div class="column">
-          <a href="#">mattress & pillow protectors</a>
-          <a href="#">bath towels & rugs</a>
-          <a href="#">shower totes & bath storage</a>
-        </div>
-        <div class="column">
-          <a href="#">carts & shelving</a>
-          <a href="#">underbed storage & caddies</a>
-          <a href="#">clothing storage</a>
-        </div>
+      <div class="column">
+      <a href="./bedding.html">bedding</a>
+      <a href="./smallAppliances.html">small appliances</a>
+      <a href="">bedding basics</a>
+    </div>
+    <div class="column">
+      <a href="">sale</a>
+      <a href="">mattress pads</a>
+      <a href="">shams</a>
+    </div>
+    <div class="column">
+      <a href="">bed in a bef</a>
+      <a href="">quilts</a>
+      <a href="">bed skirts</a>
+    </div>
         </div>
     </div>    
 

@@ -11,6 +11,7 @@
 }
 
 #Beddingcontainer > div > img {
+  width: 300px;
   padding: 20px;
   margin-left: 200px;
   border: 5px solid #accbe4;
@@ -37,3 +38,4 @@
   color: rgb(38, 38, 155);
   text-align: center;
 }
+
