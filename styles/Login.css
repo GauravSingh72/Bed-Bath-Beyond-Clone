@@ -24,13 +24,13 @@ body{
     border-radius: 10px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    margin: 0 20px;
+    margin: 0 10px;
 }
 
 .container .forms{
     display: flex;
     align-items: center;
-    height: 440px;
+    height: 410px;
     width: 200%;
     transition: height 0.2s ease;
 }
@@ -59,7 +59,7 @@ body{
 }
 
 .container.active .forms{
-    height: 600px;
+    height: 450px;
 }
 .container .form .title{
     position: relative;
