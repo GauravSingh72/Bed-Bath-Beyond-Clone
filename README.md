@@ -27,7 +27,10 @@
 <h3>Product Page</h3>
 <img src="https://ibb.co/bbvvfwr"/>
 
+<div style="display:flex">
 <h3>Tech Stacks Used</h3>
-<img src="https://cdn-icons-png.flaticon.com/512/143/143655.png"/>
-<img src="https://cdn-icons-png.flaticon.com/512/732/732190.png"/>
-<img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"/>
+<img style="height:100px; width:100px" src="https://cdn-icons-png.flaticon.com/512/143/143655.png"/>
+<img style="height:100px; width:100px" src="https://cdn-icons-png.flaticon.com/512/732/732190.png"/>
+<img style="height:100px; width:100px" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"/>
+</div>
+
