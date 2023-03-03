@@ -12,19 +12,18 @@
 
 <h2>About BedBath&Beyond</h2>
 <p>Bed Bath & Beyond Inc. is an American chain of domestic merchandise retail stores. The chain operates many stores in the United States, Canada, Mexico, and Puerto Rico.Bed Bath & Beyond was founded in 1971</p>
-
 <h2>Here are some Snapshots from website...</h2>
 
 <h2>Landing Page</h2>
 <a href="https://ibb.co/8K7qVvX"><img src="https://i.ibb.co/QbKLGSX/Screenshot-2023-03-03-at-7-49-19-PM.png" alt="Screenshot-2023-03-03-at-7-49-19-PM" border="0"></a>
 
-<h2>Login Page</h2>
+<h3>Login Page</h3>
 <a href="https://ibb.co/vkCxLGv"><img src="https://i.ibb.co/1TYfR5J/Screenshot-2023-03-03-at-7-50-30-PM.png" alt="Screenshot-2023-03-03-at-7-50-30-PM" border="0"></a>
 
-<h2>Signup Page</h2>
+<h3>Signup Page</h3>
 <a href="https://ibb.co/4YKpsKT"><img src="https://i.ibb.co/8dN9zN5/Screenshot-2023-03-03-at-7-59-06-PM.png" alt="Screenshot-2023-03-03-at-7-59-06-PM" border="0"></a>
 
-<h2>Product Page</h2>
+<h3>Product Page</h3>
 <a href="https://ibb.co/bbvvfwr"><img src="https://i.ibb.co/WVzzT8c/Screenshot-2023-03-03-at-7-51-09-PM.png" alt="Screenshot-2023-03-03-at-7-51-09-PM" border="0"></a>
 
 <div style="display:flex">
