@@ -1,4 +1,4 @@
-<h2> Hello everyone, My name is Gaurav Singh. I am a student of Unit-4, in Masai. I was given a project in Masai Construct Week, in which I was supposed to clone the website, bedbathandbeyond.com.</h2>
+<h2> Hello everyone, My name is Gaurav Singh. I am a student at Masai. I was given a project in Masai Construct Week of Unit-4, in which I was supposed to clone the website, bedbathandbeyond.com.</h2>
 
 <h2>This is a Solo Project</h2>
 
