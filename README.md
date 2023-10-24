@@ -21,7 +21,7 @@
 <a href="https://ibb.co/vkCxLGv"><img src="https://i.ibb.co/1TYfR5J/Screenshot-2023-03-03-at-7-50-30-PM.png" alt="Screenshot-2023-03-03-at-7-50-30-PM" border="0"></a>
 
 <h3>Signup Page</h3>
-<a href="https://ibb.co/4YKpsKT"><img src="https://i.ibb.co/k8ShGds/Screenshot-2023-04-19-at-4-17-20-PM.png" alt="Screenshot-2023-04-19-at-4-17-20-PM" border="0"></a>
+<a href="https://ibb.co/4YKpsKT"><img src="https://i.ibb.co/0pLRFBZ/Screenshot-2023-10-24-at-10-55-30-AM.png" alt="Screenshot-2023-10-24-at-10-55-30-AM" border="0"></a>
 
 <h3>Product Page</h3>
 <a href="https://ibb.co/bbvvfwr"><img src="https://i.ibb.co/WVzzT8c/Screenshot-2023-03-03-at-7-51-09-PM.png" alt="Screenshot-2023-03-03-at-7-51-09-PM" border="0"></a>
