@@ -11,7 +11,7 @@
 </ul>
 
 <h2>About BedBath&Beyond</h2>
-<p>Bed Bath & Beyond Inc. is an American chain of domestic merchandise retail stores. The chain operates many stores in the United States, Canada, Mexico, and Puerto Rico.Bed Bath & Beyond was founded in 1971</p>
+<p>Bed Bath & Beyond Inc. is an American chain of domestic merchandise retail stores. The chain operates many stores in the United States, Canada, Mexico, and Puerto Rico.Bed Bath & Beyond was founded in 1971.</p>
 <h2>Here are some Snapshots from website...</h2>
 
 <h2>Landing Page</h2>
