@@ -1,4 +1,4 @@
-<h2> Greetings! I'm Gaurav Singh, a student at Masai, I worked on a project for Masai Construct Week in Unit-4. My task involves replicating the bedbathandbeyond.com website.</h2>
+<h2> Greetings! I'm Gaurav Singh, a student at Masai, I worked on a project for Masai Construct Week in Unit-4. My task involved replicating the bedbathandbeyond.com website.</h2>
 
 <h2>This is a Solo Project</h2>
 
